@@ -2,6 +2,9 @@ from numpy import *
 from HaloFuncs import *
 from Params import *
 
+
+# change this to use sys.argv[0] and sys.argv[1] variables
+
 # v_mins
 n = int(input("Number of velocities between 0.0 and 800.0 km/s : "))
 v_min = linspace(0.01,800.0,n)
